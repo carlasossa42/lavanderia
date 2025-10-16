@@ -21,12 +21,12 @@
 #############################################################################
 
 {
-    'name': 'Laundry Management',
+    'name': 'Gestión de lavandería',
     'version': '17.0.1.0.0',
     "category": "Services",
-    'summary': """Complete Laundry Service Management""",
-    'description': 'This module is very useful to manage all process of laundry'
-                   ' service',
+    'summary': """Gestión completa de servicios de lavandería""",
+    'description': 'Este módulo es muy útil para gestionar todo el proceso del servicio'
+                   ' de lavandería',
     'author': 'Cybrosys Techno Solutions',
     'company': 'Cybrosys Techno Solutions',
     'website': "https://www.cybrosys.com",

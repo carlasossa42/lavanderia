@@ -1,0 +1,401 @@
+# Translation of lavanderia to Spanish
+# Copyright (C) 2024
+# This file is distributed under the same license as the lavanderia module.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lavanderia 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: lavanderia
+msgid "# Invoice"
+msgstr "# Facturas"
+
+#. module: lavanderia
+msgid "# Works"
+msgstr "# Trabajos"
+
+#. module: lavanderia
+msgid "Additional Products"
+msgstr "Productos adicionales"
+
+#. module: lavanderia
+#: model:ir.actions.act_window,name:lavanderia.action_washing_work
+#: model:ir.ui.menu,name:lavanderia.laundry_washing_work
+msgid "Additional Works"
+msgstr "Trabajos adicionales"
+
+#. module: lavanderia
+msgid "Advance: %s"
+msgstr "Anticipo: %s"
+
+#. module: lavanderia
+msgid "Amount"
+msgstr "Importe"
+
+#. module: lavanderia
+msgid "Assigned Person"
+msgstr "Persona asignada"
+
+#. module: lavanderia
+msgid "CUSTOMER"
+msgstr "CLIENTE"
+
+#. module: lavanderia
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: lavanderia
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: lavanderia
+#: model_terms:ir.actions.act_window,help:lavanderia.action_laundry_order
+msgid "Click to create a New Order."
+msgstr "Haga clic para crear una nueva orden."
+
+#. module: lavanderia
+#: model:ir.ui.menu,name:lavanderia.laundry_config_menu
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: lavanderia
+msgid "Confirm Order"
+msgstr "Confirmar orden"
+
+#. module: lavanderia
+msgid "Create Invoice"
+msgstr "Crear factura"
+
+#. module: lavanderia
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: lavanderia
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: lavanderia
+#: model:ir.ui.menu,name:lavanderia.laundry_customer
+msgid "Customers"
+msgstr "Clientes"
+
+#. module: lavanderia
+msgid "Date"
+msgstr "Fecha"
+
+#. module: lavanderia
+msgid "Delivery Address"
+msgstr "Dirección de entrega"
+
+#. module: lavanderia
+msgid "Delivery address for current sales order."
+msgstr "Dirección de entrega para la orden de venta actual."
+
+#. module: lavanderia
+msgid "Description"
+msgstr "Descripción"
+
+#. module: lavanderia
+msgid "Done"
+msgstr "Hecho"
+
+#. module: lavanderia
+msgid "Down Payment"
+msgstr "Anticipo"
+
+#. module: lavanderia
+msgid "Down payment of %s%%"
+msgstr "Anticipo de %s%%"
+
+#. module: lavanderia
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: lavanderia
+msgid "Dress"
+msgstr "Prenda"
+
+#. module: lavanderia
+msgid "Extra Work"
+msgstr "Trabajo adicional"
+
+#. module: lavanderia
+msgid "Fully Invoiced"
+msgstr "Totalmente facturado"
+
+#. module: lavanderia
+msgid "Grand Total"
+msgstr "Total general"
+
+#. module: lavanderia
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: lavanderia
+msgid "Invoice Address"
+msgstr "Dirección de facturación"
+
+#. module: lavanderia
+msgid "Invoice Address for current sales order."
+msgstr "Dirección de facturación para la orden de venta actual."
+
+#. module: lavanderia
+msgid "Invoice Status"
+msgstr "Estado de la factura"
+
+#. module: lavanderia
+msgid "Invoice address for current sales order."
+msgstr "Dirección de facturación para la orden de venta actual."
+
+#. module: lavanderia
+msgid "Label"
+msgstr "Etiqueta"
+
+#. module: lavanderia
+#: model:ir.actions.act_window,name:lavanderia.action_laundry_order
+#: model:ir.ui.menu,name:lavanderia.laundry_management_menu
+#: model:ir.ui.menu,name:lavanderia.laundry_management_sub_menu
+msgid "Laundry Management"
+msgstr "Gestión de lavandería"
+
+#. module: lavanderia
+#: model:ir.ui.menu,name:lavanderia.laundry_management_order
+msgid "Laundry Order"
+msgstr "Orden de lavandería"
+
+#. module: lavanderia
+#: model:ir.actions.act_window,name:lavanderia.action_laundry_order_analysis
+#: model:ir.ui.menu,name:lavanderia.menu_laundry_order_analysis
+#: model_terms:ir.ui.view,arch_db:lavanderia.view_report_laundry_order
+msgid "Laundry Order Analysis"
+msgstr "Análisis de órdenes de lavandería"
+
+#. module: lavanderia
+msgid "Laundry Order Code"
+msgstr "Código de orden de lavandería"
+
+#. module: lavanderia
+#: model:ir.actions.report,name:lavanderia.laundry_label
+msgid "Laundry Order Label"
+msgstr "Etiqueta de orden de lavandería"
+
+#. module: lavanderia
+msgid "Laundry Order Line"
+msgstr "Línea de orden de lavandería"
+
+#. module: lavanderia
+msgid "Laundry Order Lines"
+msgstr "Líneas de la orden de lavandería"
+
+#. module: lavanderia
+msgid "Laundry Person"
+msgstr "Encargado de lavandería"
+
+#. module: lavanderia
+msgid "Laundry Service"
+msgstr "Servicio de lavandería"
+
+#. module: lavanderia
+#: model:ir.ui.menu,name:lavanderia.laundry_washing
+msgid "Laundry Works"
+msgstr "Trabajos de lavandería"
+
+#. module: lavanderia
+msgid "Make Over"
+msgstr "Retoque"
+
+#. module: lavanderia
+msgid "Name"
+msgstr "Nombre"
+
+#. module: lavanderia
+msgid "No of items"
+msgstr "Número de artículos"
+
+#. module: lavanderia
+msgid "Nothing to Invoice"
+msgstr "Nada por facturar"
+
+#. module: lavanderia
+msgid "Order Lines"
+msgstr "Líneas de la orden"
+
+#. module: lavanderia
+msgid "Order Reference"
+msgstr "Referencia de la orden"
+
+#. module: lavanderia
+msgid "Process"
+msgstr "En proceso"
+
+#. module: lavanderia
+msgid "Processing"
+msgstr "Procesando"
+
+#. module: lavanderia
+msgid "Product"
+msgstr "Producto"
+
+#. module: lavanderia
+#: model:ir.ui.menu,name:lavanderia.laundry_products
+msgid "Products"
+msgstr "Productos"
+
+#. module: lavanderia
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: lavanderia
+#: model:ir.ui.menu,name:lavanderia.laundry_report_menu
+msgid "Report"
+msgstr "Informe"
+
+#. module: lavanderia
+msgid "Return"
+msgstr "Devolver"
+
+#. module: lavanderia
+msgid "Returned"
+msgstr "Devuelto"
+
+#. module: lavanderia
+msgid "Service Charge"
+msgstr "Cargo por servicio"
+
+#. module: lavanderia
+msgid "Set to Done"
+msgstr "Marcar como hecho"
+
+#. module: lavanderia
+msgid "Setup default terms and conditions in your company settings."
+msgstr "Configure los términos y condiciones predeterminados en los ajustes de su empresa."
+
+#. module: lavanderia
+msgid "Start"
+msgstr "Iniciar"
+
+#. module: lavanderia
+msgid "Status"
+msgstr "Estado"
+
+#. module: lavanderia
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#. module: lavanderia
+msgid "Terms and conditions"
+msgstr "Términos y condiciones"
+
+#. module: lavanderia
+msgid "The product used to invoice a down payment should be of type 'Service'. Please use another product or update this product."
+msgstr "El producto utilizado para facturar un anticipo debe ser de tipo 'Servicio'. Utilice otro producto o actualice este producto."
+
+#. module: lavanderia
+msgid "The product used to invoice a down payment should have an invoice policy set to \"Ordered quantities\". Please update your deposit product to be able to create a deposit invoice."
+msgstr "El producto utilizado para facturar un anticipo debe tener una política de facturación establecida en \"Cantidades pedidas\". Actualice su producto de depósito para poder crear una factura de anticipo."
+
+#. module: lavanderia
+msgid "The value of the down payment amount must be positive."
+msgstr "El valor del importe del anticipo debe ser positivo."
+
+#. module: lavanderia
+#: model_terms:ir.actions.act_window,help:lavanderia.action_laundry_order_analysis
+msgid "This report allows you to analyse the performance of your Laundry Management."
+msgstr "Este informe permite analizar el rendimiento de su gestión de lavandería."
+
+#. module: lavanderia
+msgid "To Invoice"
+msgstr "Por facturar"
+
+#. module: lavanderia
+msgid "Total"
+msgstr "Total"
+
+#. module: lavanderia
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: lavanderia
+msgid "Unit of Measure "
+msgstr "Unidad de medida "
+
+#. module: lavanderia
+msgid "Upselling Opportunity"
+msgstr "Oportunidad de venta adicional"
+
+#. module: lavanderia
+#: model:ir.actions.act_window,name:lavanderia.action_washing
+msgid "Washing"
+msgstr "Lavado"
+
+#. module: lavanderia
+#: model:ir.actions.act_window,name:lavanderia.action_washing_type
+#: model:ir.ui.menu,name:lavanderia.laundry_washing_type
+msgid "Washing Type"
+msgstr "Tipo de lavado"
+
+#. module: lavanderia
+msgid "Work"
+msgstr "Trabajo"
+
+#. module: lavanderia
+msgid "Works"
+msgstr "Trabajos"
+
+#. module: lavanderia
+msgid "date of order"
+msgstr "fecha de la orden"
+
+#. module: lavanderia
+msgid "date of washing"
+msgstr "fecha de lavado"
+
+#. module: lavanderia
+msgid "name of assigned person"
+msgstr "nombre de la persona asignada"
+
+#. module: lavanderia
+msgid "name of currency"
+msgstr "nombre de la moneda"
+
+#. module: lavanderia
+msgid "name of customer"
+msgstr "nombre del cliente"
+
+#. module: lavanderia
+msgid "name of laundry person"
+msgstr "nombre del encargado de lavandería"
+
+#. module: lavanderia
+msgid "name of the product"
+msgstr "nombre del producto"
+
+#. module: lavanderia
+msgid "number of quantity"
+msgstr "cantidad"
+
+#. module: lavanderia
+msgid "orderlines of laundry orders"
+msgstr "líneas de la orden de lavandería"
+
+#. module: lavanderia
+msgid "state of the order"
+msgstr "estado de la orden"
+
+#. module: lavanderia
+msgid "status of invoice"
+msgstr "estado de la factura"
+
+#. module: lavanderia
+msgid "total amount"
+msgstr "importe total"
