@@ -2,37 +2,36 @@
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 
-Laundry Management
-===================
-Laundry Management
+Gestión de lavandería
+=====================
+Gestión integral de servicios de lavandería.
 
-
-Company
+Empresa
 -------
 * `Cybrosys Techno Solutions <https://cybrosys.com/>`__
 
-Credits
--------
-Developer: Sadique Kottekkat @cybrosys, Contact: odoo@cybrosys.com
-
-Contacts
+Créditos
 --------
-* Mail Contact : odoo@cybrosys.com
-* Website : https://cybrosys.com
+Desarrollador: Sadique Kottekkat @cybrosys, Contacto: odoo@cybrosys.com
 
-Bug Tracker
------------
-Bugs are tracked on GitHub Issues. In case of trouble, please check there if your issue has already been reported.
+Contactos
+---------
+* Correo : odoo@cybrosys.com
+* Sitio web : https://cybrosys.com
 
-Maintainer
+Seguimiento de errores
+----------------------
+Los errores se gestionan en GitHub Issues. En caso de problemas, verifique si su incidencia ya fue reportada.
+
+Mantenedor
 ==========
 .. image:: https://cybrosys.com/images/logo.png
    :target: https://cybrosys.com
 
-This module is maintained by Cybrosys Technologies.
+Este módulo es mantenido por Cybrosys Technologies.
 
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
+Para soporte y más información, visite `Nuestro sitio web <https://cybrosys.com/>`__
 
-Further information
-===================
-HTML Description: `<static/description/index.html>`__
+Más información
+================
+Descripción HTML: `<static/description/index.html>`__
