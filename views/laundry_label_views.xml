@@ -24,7 +24,7 @@
                                         <tr>
                                             <td style="border: 2px solid black;text-align: center; vertical-align: middle;"
                                                 colspan="2">
-                                                <span>CUSTOMER</span>
+                                                <span>CLIENTE</span>
                                             </td>
                                             <td style="border: 2px solid black;text-align: center; vertical-align: middle;"
                                                 colspan="2">
@@ -40,7 +40,7 @@
             </t>
         </template>
         <record id="laundry_label" model="ir.actions.report">
-            <field name="name">Laundry Order Label</field>
+            <field name="name">Etiqueta de orden de lavandería</field>
             <field name="model">laundry.order</field>
             <field name="report_type">qweb-pdf</field>
             <field name="report_name">laundry_management.laundry_order_label

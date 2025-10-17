@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <record id="sequence_laundry" model="ir.sequence">
-            <field name="name">Laundry Order Code</field>
+            <field name="name">Código de orden de lavandería</field>
             <field name="code">laundry.order</field>
             <field eval="4" name="padding"/>
             <field name="prefix">LO</field>
@@ -13,18 +13,18 @@
             <field name="name">laundry.order.form</field>
             <field name="model">laundry.order</field>
             <field name="arch" type="xml">
-                <form string="Laundry Order" class="o_sale_order">
+                <form string="Orden de lavandería" class="o_sale_order">
                     <header>
                         <button name="confirm_order" class="oe_highlight"
-                                string="Confirm Order" type="object"
+                                string="Confirmar orden" type="object"
                                 invisible="state not in 'draft'"/>
                         <button name="create_invoice" class="oe_highlight"
-                                string="Create Invoice" type="object"
+                                string="Crear factura" type="object"
                                 invisible="(invoice_status == 'invoiced') or (state != 'done')"/>
-                        <button name="return_dress" string="Return"
+                        <button name="return_dress" string="Devolver"
                                 class="oe_highlight" type="object"
                                 invisible="state not in 'done'"/>
-                        <button name="cancel_order" string="Cancel"
+                        <button name="cancel_order" string="Cancelar"
                                 type="object" invisible="state not in 'draft'"/>
                         <field name="state" widget="statusbar"
                                statusbar_visible="draft,order,done,return"/>
@@ -35,14 +35,14 @@
                                     class="oe_stat_button" type="object"
                                     icon="fa-money"
                                     invisible="state not in ('order','done','return','process')">
-                                <field string="Works" name="work_count"
+                                <field string="Trabajos" name="work_count"
                                        widget="statinfo"/>
                             </button>
                             <button name='action_view_invoice'
                                     class="oe_stat_button" type="object"
                                     icon="fa-money"
                                     invisible="state not in ('done','return')">
-                                <field string="Invoice" name="invoice_count"
+                                <field string="Factura" name="invoice_count"
                                        widget="statinfo"/>
                             </button>
                         </div>
@@ -73,10 +73,10 @@
                             </group>
                         </group>
                         <notebook>
-                            <page string="Order Lines">
+                            <page string="Líneas de la orden">
                                 <field name="order_lines"
                                        readonly="state != 'draft'">
-                                    <tree string="Laundry Order Lines"
+                                    <tree string="Líneas de la orden de lavandería"
                                           editable="bottom"
                                           decoration-info="state == 'draft'"
                                           colors="grey:state == 'done';black:state == 'extra_work';green:state == 'wash';">
@@ -96,7 +96,7 @@
                                            options="{'currency_field': 'currency_id'}"/>
                                 </group>
                                 <field name="note" class="oe_inline"
-                                       placeholder="Setup default terms and conditions in your company settings."/>
+                                       placeholder="Configura los términos y condiciones predeterminados en los ajustes de tu empresa."/>
                                 <div class="oe_clear"/>
                             </page>
                         </notebook>
@@ -126,22 +126,22 @@
             </field>
         </record>
         <record id="action_laundry_order" model="ir.actions.act_window">
-            <field name="name">Laundry Management</field>
+            <field name="name">Gestión de lavandería</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">laundry.order</field>
             <field name="view_mode">tree,form</field>
             <field name="domain">[]</field>
             <field name="help" type="html">
                 <p class="oe_view_nocontent_create">
-                    Click to create a New Order.
+                    Haz clic para crear una nueva orden.
                 </p>
             </field>
         </record>
-        <menuitem name="Laundry Management" id="laundry_management_menu"
+        <menuitem name="Gestión de lavandería" id="laundry_management_menu"
         />
-        <menuitem id="laundry_management_sub_menu" name="Laundry Management"
+        <menuitem id="laundry_management_sub_menu" name="Gestión de lavandería"
                   parent="laundry_management_menu" sequence="1"/>
-        <menuitem id="laundry_management_order" name="Laundry Order"
+        <menuitem id="laundry_management_order" name="Orden de lavandería"
                   parent="laundry_management_sub_menu"
                   action="action_laundry_order" sequence="1"/>
     </data>
