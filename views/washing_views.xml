@@ -7,13 +7,13 @@
             <field name="name">washing.washing.form</field>
             <field name="model">washing.washing</field>
             <field name="arch" type="xml">
-                <form string="Washing" create="false">
+                <form string="Lavado" create="false">
                     <header>
                         <button name="start_wash" class="oe_highlight"
-                                string="Start" type="object"
+                                string="Iniciar" type="object"
                                 invisible="state not in 'draft'"/>
                         <button name="set_to_done" class="oe_highlight"
-                                string="Set to Done" type="object"
+                                string="Marcar como realizado" type="object"
                                 invisible="state not in 'process'"/>
                         <field name="state" widget="statusbar"
                                statusbar_visible="draft,process,done"/>
@@ -29,10 +29,10 @@
                             </group>
                         </group>
                         <notebook>
-                            <page string="Description">
+                            <page string="Descripción">
                                 <field name="description"/>
                             </page>
-                            <page string="Additional Products">
+                            <page string="Productos adicionales">
                                 <field name="product_line"
                                        readonly="state != 'draft'">
                                     <tree editable="bottom">
@@ -73,13 +73,13 @@
             </field>
         </record>
         <record id="action_washing" model="ir.actions.act_window">
-            <field name="name">Washing</field>
+            <field name="name">Lavado</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">washing.washing</field>
             <field name="view_mode">tree,form</field>
             <field name="domain">[('user_id','=', uid)]</field>
         </record>
-        <menuitem id="laundry_washing" name="Laundry Works"
+        <menuitem id="laundry_washing" name="Trabajos de lavandería"
                   parent="laundry_management_sub_menu" action="action_washing"
                   sequence="2"/>
     </data>
